@@ -195,4 +195,8 @@ color: skyblue;
     height: 100%;
     object-fit: cover;
   }
+
+  #carrinho {
+    color: white;
+  }
   
