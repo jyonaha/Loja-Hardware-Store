@@ -89,12 +89,12 @@ margin: 0;
 }
 
 .nav-link {
-color: white;  /* Cor do texto do link */
-text-decoration: none; /* Remover sublinhado do link  */
+color: white;
+text-decoration: none;
 }
 
 .nav-link:hover {
-color: skyblue; /* Cor do texto do link em hover */ 
+color: skyblue;
 } 
 
 
