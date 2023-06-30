@@ -83,7 +83,6 @@ flex-wrap: wrap;
 justify-content: space-between;
 }
 
-
 .product h2 {
 margin: 0;
 }
@@ -97,12 +96,10 @@ text-decoration: none;
 color: skyblue;
 } 
 
-
 .cadastro {
  margin:auto;
  padding: 50px;
 }
-
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -172,6 +169,7 @@ color: skyblue;
     --bs-btn-active-bg: #5a23c8;
     --bs-btn-active-border-color: #5a23c8;
   }
+
   .bd-mode-toggle {
     z-index: 1500;
   }
