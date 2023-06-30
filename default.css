@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+    }
+
+h1 {
+    margin: 0;
+}
+    
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.product img {
+width: 100%;
+height: auto;
+}
+
+.product h2,
+.product p {
+    margin: 10px 0;
+}
+
+.product button {
+display: block;
+width: 100%;
+}
+
+.product p {
+margin-bottom: 0;
+}
+
+.logo {
+height: 60px;
+margin-right: 20px;
+}
+
+.parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto auto auto auto;
+grid-column-gap: 0;
+grid-row-gap: 10px;
+}
+
+.div1 {
+grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+grid-area: 2 / 1 / 3 / 2;
+}
+
+.div3 {
+grid-area: 3 / 1 / 4 / 2;
+}
+
+.div4 {
+grid-area: 4 / 1 / 5 / 2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+.product h2 {
+margin: 0;
+}
+
+.nav-link {
+color: white;  /* Cor do texto do link */
+text-decoration: none; /* Remover sublinhado do link  */
+}
+
+.nav-link:hover {
+color: skyblue; /* Cor do texto do link em hover */ 
+} 
+  

@@ -1,15 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- CSS DO BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Hardware Store</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- MEU CSS -->
-    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 </head>
 <body>
-    
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img src="img/LOGO.png" alt="Hardware Store" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <!-- Adicione mais opções de menu aqui -->
+          </ul>
+        </div>
+      </nav>
+  </header>
+
+  <div class="container ">
+<!-- COMECO DO CONTAINER DO PRODUTO -->
+    <div class="product parent">
+<!-- IMAGEM -->
+        <div class="div1">
+            <img src="img/4070TI.jpg" alt="Nome do Produto">
+        </div>
+<!-- DESCRICAO-TITULO -->
+        <div class="div2">
+            <h2>RTX 4070 Ti Ventus MSI NVIDIA</h2>
+            <p>Placa de vídeo</p>
+        </div>
+<!-- PRECO -->
+        <div class="div3">
+            <p>R$ 8.399,90</p>
+        </div>
+<!-- BUTAO -->
+        <div class="div4">
+            <button onclick="adicionarAoCarrinho()" class="btn btn-primary">Adicionar ao Carrinho</button>
+        </div>
+<!-- FIM O CONTAINER DOPRODUTO -->
+    </div>
+
+    <div class="product parent">
+        <div class="div1">
+            <img src="img/PLACAMÃE.jpg" alt="Nome do Produto">
+        </div>
+        <div class="div2">
+            <h2>Crosshair X670E Extreme</h2>
+            <p>Placa mãe Asus Rog</p>
+        </div>
+        <div class="div3">
+            <p>R$ 8.299,99</p>
+        </div>
+        <div class="div4">
+            <button onclick="adicionarAoCarrinho()" class="btn btn-primary">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="product parent">   
+        <div class="div1">
+            <img src="img/R97950X.jpg" alt="Nome do Produto">
+        </div>
+        <div class="div2">
+            <h2>Ryzen 9 7950X</h2>
+            <p>Processador</p>
+        </div>
+        <div class="div3">
+            <p>R$ 3.899,90</p>
+        </div>
+        <div class="div4">
+            <button onclick="adicionarAoCarrinho()" class="btn btn-primary">Adicionar ao Carrinho</button>
+        </div>
+      </div>
+      
+    <div class="product parent">
+        <div class="div1">
+            <img src="img/PLACAMÃE.jpg" alt="Nome do Produto">
+        </div>
+        <div class="div2">
+            <h2>Crosshair X670E Extreme</h2>
+            <p>Placa mãe Asus Rog</p>
+        </div>
+        <div class="div3">
+            <p>R$ 8.299,99</p>
+        </div>
+        <div class="div4">
+            <button onclick="adicionarAoCarrinho()" class="btn btn-primary">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="product parent">   
+        <div class="div1">
+            <img src="img/R97950X.jpg" alt="Nome do Produto">
+        </div>
+        <div class="div2">
+            <h2>Ryzen 9 7950X</h2>
+            <p>Processador</p>
+        </div>
+        <div class="div3">
+            <p>R$ 3.899,90</p>
+        </div>
+        <div class="div4">
+            <button onclick="adicionarAoCarrinho()" class="btn btn-primary">Adicionar ao Carrinho</button>
+        </div>
+      </div>
+
+    <div class="product parent">
+        <div class="div1">
+            <img src="img/PLACAMÃE.jpg" alt="Nome do Produto">
+        </div>
+        <div class="div2">
+            <h2>Crosshair X670E Extreme</h2>
+            <p>Placa mãe Asus Rog</p>
+        </div>
+        <div class="div3">
+            <p>R$ 8.299,99</p>
+        </div>
+        <div class="div4">
+            <button onclick="adicionarAoCarrinho()" class="btn btn-primary">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="product parent">   
+        <div class="div1">
+            <img src="img/R97950X.jpg" alt="Nome do Produto">
+        </div>
+        <div class="div2">
+            <h2>Ryzen 9 7950X</h2>
+            <p>Processador</p>
+        </div>
+        <div class="div3">
+            <p>R$ 3.899,90</p>
+        </div>
+        <div class="div4">
+            <button onclick="adicionarAoCarrinho()" class="btn btn-primary">Adicionar ao Carrinho</button>
+        </div>
+      </div>
+      
+    <!-- Adicione mais produtos aqui -->
+
+    <div id="carrinho">
+      <h2>Carrinho</h2>
+      <ul id="itens-carrinho">
+        <!-- Itens do carrinho serão adicionados aqui dinamicamente -->
+      </ul>
+      <p>Total: R$ <span id="total-carrinho">0.00</span></p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="main.js"></script> <!-- Referência ao arquivo JavaScript externo -->
+  
 </body>
 </html>
