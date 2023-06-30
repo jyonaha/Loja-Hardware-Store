@@ -96,4 +96,9 @@ text-decoration: none; /* Remover sublinhado do link  */
 .nav-link:hover {
 color: skyblue; /* Cor do texto do link em hover */ 
 } 
-  
+
+
+.cadastro {
+ margin:auto;
+ padding: 50px;
+}
